@@ -21,3 +21,10 @@ body.loaded #loading{
 	display: none;
 }
 
+#loading > * {
+	display: block;
+	position: absolute;
+	top: 40%;
+	background: #f00;
+	animation: loading infinite ease-out 2.5s;
+}
