@@ -38,3 +38,18 @@ body.loaded #loading{
 	transform-origin: 0 50%;
 	right: 49%;
 }
+
+@keyframes loading {
+	from {
+		width: 0;
+		height: 10%;
+		filter: blur(0);
+		opacity: 1;
+	}
+	to {
+		width: 50%;
+		height: 5%;
+		filter: blur(15px);
+		opacity: 0
+	}
+}
